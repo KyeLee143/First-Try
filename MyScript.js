@@ -4,6 +4,8 @@ $(document).ready(function(){
 	});
 	$("img").click(function(){
 		$("p").show();
+		$(".stl").css({"color":"red", "background-color":"black"});
 	});
-	$(".stl").css({"color:seagreen"});
+	
+	
 });
